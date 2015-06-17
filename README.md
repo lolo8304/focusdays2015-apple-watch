@@ -1,4 +1,4 @@
-# focusdays2015-apple-watch
+# Focus Days 2015 - 1st Apple Watch App for Insurance
 
 welcome to our Focusdays 2015 project repository. We learn how to implement a cool insurance use case using Apple Watch, Samsung Gear or Pebble Watch
 

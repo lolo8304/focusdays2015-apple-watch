@@ -20,7 +20,7 @@ class InterfaceController: WKInterfaceController {
         super.awakeWithContext(context)
         self.table.setNumberOfRows(self.emojis.count, withRowType: "EmojiObject")
         for index in 0..<self.emojis.count {
-            var emoji = self.table.rowControllerAtIndex(index) as EmojiObject
+            let emoji = self.table.rowControllerAtIndex(index) as! EmojiObject
             emoji.emojiLabel.setText(emojis[index][0])
             emoji.emojiDescription.setText(emojis[index][1])
         }

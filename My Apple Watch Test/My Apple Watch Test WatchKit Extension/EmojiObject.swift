@@ -12,7 +12,7 @@ import WatchKit
 class EmojiObject: NSObject {
     
     class func emojis() -> Array<Array<String>> {
-        var emojis = [ ["😄" , "smiley"], ["🐹" , "Hamster"], ["🏣" , "house"]]
+        let emojis = [ ["😄" , "smiley"], ["🐹" , "Hamster"], ["🏣" , "house"]]
         return emojis;
     }
     class func rand_emoji() -> Array<String> {

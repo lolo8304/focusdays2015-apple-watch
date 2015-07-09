@@ -18,7 +18,7 @@ class ZoomEmojiController: WKInterfaceController {
     
     override func awakeWithContext(context: AnyObject?) {
         super.awakeWithContext(context)
-        var s = context as Array<String>
+        var s = context as! Array<String>
         
         var font = UIFont.systemFontOfSize(100)
         var zoomString = NSAttributedString(string: s[0], attributes: [NSFontAttributeName: font])
